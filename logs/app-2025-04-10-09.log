@@ -1,0 +1,28 @@
+{"@timestamp":"2025-04-10T09:16:39.770Z","ecs.version":"8.10.0","log.level":"info","message":"Server starting","service":"express-app"}
+{"@timestamp":"2025-04-10T09:16:39.773Z","ecs.version":"8.10.0","error":{"message":"boom","stack_trace":"Error: boom\n    at Object.<anonymous> (/app/main.js:46:39)\n    at Module._compile (node:internal/modules/cjs/loader:1364:14)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)\n    at Module.load (node:internal/modules/cjs/loader:1203:32)\n    at Module._load (node:internal/modules/cjs/loader:1019:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:128:12)\n    at node:internal/main/run_main_module:28:49","type":"Error"},"log.level":"error","message":"Test error log","service":"express-app"}
+{"@timestamp":"2025-04-10T09:16:39.778Z","ecs.version":"8.10.0","log.level":"info","message":"Server running on port 3000","service":"express-app"}
+{"@timestamp":"2025-04-10T09:20:51.227Z","ecs.version":"8.10.0","log.level":"info","message":"Received request","path":"/","service":"express-app"}
+{"@timestamp":"2025-04-10T09:24:37.561Z","ecs.version":"8.10.0","log.level":"info","message":"Server starting","service":"express-app"}
+{"@timestamp":"2025-04-10T09:24:37.563Z","ecs.version":"8.10.0","error":{"message":"boom","stack_trace":"Error: boom\n    at Object.<anonymous> (/app/main.js:46:39)\n    at Module._compile (node:internal/modules/cjs/loader:1364:14)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)\n    at Module.load (node:internal/modules/cjs/loader:1203:32)\n    at Module._load (node:internal/modules/cjs/loader:1019:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:128:12)\n    at node:internal/main/run_main_module:28:49","type":"Error"},"log.level":"error","message":"Test error log","service":"express-app"}
+{"@timestamp":"2025-04-10T09:24:37.570Z","ecs.version":"8.10.0","log.level":"info","message":"Server running on port 3000","service":"express-app"}
+{"@timestamp":"2025-04-10T09:24:51.745Z","ecs.version":"8.10.0","log.level":"info","message":"Received request","path":"/","service":"express-app"}
+{"@timestamp":"2025-04-10T09:24:56.408Z","ecs.version":"8.10.0","log.level":"info","message":"Received request","path":"/","service":"express-app"}
+{"@timestamp":"2025-04-10T09:24:56.747Z","ecs.version":"8.10.0","log.level":"info","message":"Received request","path":"/","service":"express-app"}
+{"@timestamp":"2025-04-10T09:24:56.908Z","ecs.version":"8.10.0","log.level":"info","message":"Received request","path":"/","service":"express-app"}
+{"@timestamp":"2025-04-10T09:24:57.064Z","ecs.version":"8.10.0","log.level":"info","message":"Received request","path":"/","service":"express-app"}
+{"@timestamp":"2025-04-10T09:24:57.231Z","ecs.version":"8.10.0","log.level":"info","message":"Received request","path":"/","service":"express-app"}
+{"@timestamp":"2025-04-10T09:24:57.369Z","ecs.version":"8.10.0","log.level":"info","message":"Received request","path":"/","service":"express-app"}
+{"@timestamp":"2025-04-10T09:24:57.528Z","ecs.version":"8.10.0","log.level":"info","message":"Received request","path":"/","service":"express-app"}
+{"@timestamp":"2025-04-10T09:24:57.693Z","ecs.version":"8.10.0","log.level":"info","message":"Received request","path":"/","service":"express-app"}
+{"@timestamp":"2025-04-10T09:24:57.860Z","ecs.version":"8.10.0","log.level":"info","message":"Received request","path":"/","service":"express-app"}
+{"@timestamp":"2025-04-10T09:24:58.005Z","ecs.version":"8.10.0","log.level":"info","message":"Received request","path":"/","service":"express-app"}
+{"@timestamp":"2025-04-10T09:24:58.152Z","ecs.version":"8.10.0","log.level":"info","message":"Received request","path":"/","service":"express-app"}
+{"@timestamp":"2025-04-10T09:24:58.315Z","ecs.version":"8.10.0","log.level":"info","message":"Received request","path":"/","service":"express-app"}
+{"@timestamp":"2025-04-10T09:24:58.434Z","ecs.version":"8.10.0","log.level":"info","message":"Received request","path":"/","service":"express-app"}
+{"@timestamp":"2025-04-10T09:24:58.573Z","ecs.version":"8.10.0","log.level":"info","message":"Received request","path":"/","service":"express-app"}
+{"@timestamp":"2025-04-10T09:24:58.705Z","ecs.version":"8.10.0","log.level":"info","message":"Received request","path":"/","service":"express-app"}
+{"@timestamp":"2025-04-10T09:24:58.856Z","ecs.version":"8.10.0","log.level":"info","message":"Received request","path":"/","service":"express-app"}
+{"@timestamp":"2025-04-10T09:24:59.012Z","ecs.version":"8.10.0","log.level":"info","message":"Received request","path":"/","service":"express-app"}
+{"@timestamp":"2025-04-10T09:24:59.152Z","ecs.version":"8.10.0","log.level":"info","message":"Received request","path":"/","service":"express-app"}
+{"@timestamp":"2025-04-10T09:24:59.435Z","ecs.version":"8.10.0","log.level":"info","message":"Received request","path":"/","service":"express-app"}
+{"@timestamp":"2025-04-10T09:24:59.575Z","ecs.version":"8.10.0","log.level":"info","message":"Received request","path":"/","service":"express-app"}

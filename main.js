@@ -18,13 +18,14 @@ if (!fs.existsSync(logsDir)) {
 // Create a rotating file transport
 const rotateTransport = new winston.transports.DailyRotateFile({
   dirname: logsDir,
-  filename: "app-%DATE%.log",
+  filename: "app-%DATE%",
   datePattern: "YYYY-MM-DD-HH",
-  maxSize: "5m", // 5 megabytes
-  maxFiles: 20, // Keep 20 files maximum
+  extension: ".log", // Add this line to set the extension
+  maxSize: "5k",
+  maxFiles: 20,
   auditFile: path.join(logsDir, "audit.json"),
   format: ecsFormat({ convertReqRes: true }),
-  zippedArchive: false, // Don't zip old log files
+  zippedArchive: false,
   handleExceptions: true,
 });
 

@@ -2,7 +2,7 @@ filebeat.inputs:
 - type: log
   enabled: true
   paths:
-    - /logs/*.log
+    - /logs/*.log*
   json.keys_under_root: true
   json.add_error_key: true
   json.message_key: message
